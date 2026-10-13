@@ -6,7 +6,7 @@ A fast, no-fuss notes app. Sign up, write a note in seconds, and pick up right w
 
 ---
 
-## Features
+## Features:
 
 - 🔐 **Authentication** — signup, login, logout with JWT access tokens + httpOnly refresh token cookies
 - 📝 **Notes** — create, edit, delete, all scoped privately to your account
@@ -27,7 +27,7 @@ A fast, no-fuss notes app. Sign up, write a note in seconds, and pick up right w
 
 ---
 
-## Security
+## Security:
 
 - JWT-based authentication with short-lived access tokens
 - httpOnly refresh-token cookies
@@ -39,7 +39,7 @@ A fast, no-fuss notes app. Sign up, write a note in seconds, and pick up right w
 
 ---
 
-## Tech Stack
+## Tech Stack:
 
 **Frontend:** React, Vite, React Router, Tailwind CSS + DaisyUI, Axios, react-hot-toast, react-markdown, jsPDF
 
@@ -49,7 +49,7 @@ A fast, no-fuss notes app. Sign up, write a note in seconds, and pick up right w
 
 ---
 
-## Libraries Used
+## Libraries Used:
 
 ### Frontend
 
@@ -90,7 +90,7 @@ A fast, no-fuss notes app. Sign up, write a note in seconds, and pick up right w
 
 ---
 
-## Project Structure
+## Project Structure:
 
 ```
 Scribly/
@@ -119,7 +119,7 @@ Scribly/
 
 ---
 
-## Getting Started Locally
+## Getting Started Locally:
 
 ### Prerequisites
 
@@ -188,7 +188,7 @@ Visit `http://localhost:5173`
 
 ---
 
-## Deployment
+## Deployment:
 
 Scribly supports two deployment approaches:
 
@@ -211,7 +211,7 @@ Use this if deploying to a single platform (e.g. one Render web service) rather 
 
 ---
 
-## Security Notes
+## Security Notes:
 
 - Passwords are hashed with bcrypt before storage.
 - Access tokens are short-lived (15 min) and never persisted; refresh tokens are httpOnly cookies, invalidated in the database on logout.
@@ -221,7 +221,7 @@ Use this if deploying to a single platform (e.g. one Render web service) rather 
 
 ---
 
-## License
+## License:
 
 ISC
 
